@@ -38,7 +38,7 @@ function fish_prompt
   set -g __fish_git_prompt_show_informative_status true 
  
   # Line 1
-  echo -n $white$__fish_prompt_char' '$yellow$USER $limegreen(pwd)$turquoise
+  echo -n $white$__fish_prompt_char' '$yellow$USER $limegreen(pwd)$blue
   __fish_git_prompt " (%s)"
   echo
 
