@@ -17,10 +17,10 @@
 
 #### Install
 
-#### [Fisherman]
+#### [Fisherman] (v3 ->)
 
 ```fish
-fisher i lambda
+fisher add lambda
 ```
 
 ##### [Oh-My-Fish]
