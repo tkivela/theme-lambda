@@ -17,10 +17,10 @@
 
 #### Install
 
-#### [Fisherman] (v3 ->)
+#### [Fisher] (v3 ->)
 
 ```fish
 fisher add tkivela/theme-lambda
 ```
 
-[Fisherman]: https://github.com/fisherman/fisherman
+[Fisher]: https://github.com/jorgebucaran/fisher
