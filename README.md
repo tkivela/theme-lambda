@@ -20,7 +20,7 @@
 #### [Fisherman] (v3 ->)
 
 ```fish
-fisher add lambda
+fisher add tkivela/theme-lambda
 ```
 
 ##### [Oh-My-Fish]
