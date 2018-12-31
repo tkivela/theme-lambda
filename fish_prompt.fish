@@ -24,6 +24,7 @@ function fish_prompt
   set -l blue (set_color blue)
   set -l limegreen (set_color 87ff00)
   set -l purple (set_color af5fff)
+  set -l yellow (set_color F9C942)
  
   # Configure __fish_git_prompt
   set -g __fish_git_prompt_char_stateseparator ' '
@@ -37,7 +38,7 @@ function fish_prompt
   set -g __fish_git_prompt_show_informative_status true 
  
   # Line 1
-  echo -n $white'╭─'$hotpink$USER $limegreen(pwd)$turquoise
+  echo -n $white'╭─'$yellow$USER $limegreen(pwd)$turquoise
   __fish_git_prompt " (%s)"
   echo
 
