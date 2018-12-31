@@ -23,11 +23,4 @@
 fisher add tkivela/theme-lambda
 ```
 
-##### [Oh-My-Fish]
-
-```fish
-omf install lambda
-```
-
 [Fisherman]: https://github.com/fisherman/fisherman
-[Oh-My-Fish]: https://github.com/oh-my-fish/oh-my-fish
