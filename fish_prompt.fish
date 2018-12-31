@@ -38,17 +38,16 @@ function fish_prompt
   set -g __fish_git_prompt_show_informative_status true 
  
   # Line 1
-  echo -n $white'╭─'$yellow$USER $limegreen(pwd)$turquoise
+  echo -n $white$__fish_prompt_char' '$yellow$USER $limegreen(pwd)$turquoise
   __fish_git_prompt " (%s)"
   echo
 
   # Line 2
-  echo -n $white'╰'
   # support for virtual env name
   if set -q VIRTUAL_ENV
       echo -n "($turquoise"(basename "$VIRTUAL_ENV")"$white)"
   end
-  echo -n $white'─'$__fish_prompt_char $normal
+  echo -n $white'→ '$normal
 end
 
 
