@@ -3,9 +3,6 @@ function fish_prompt
   set -l last_status $status
 
   # Just calculate these once, to save a few cycles when displaying the prompt
-  if not set -q __fish_prompt_hostname
-    set -g __fish_prompt_hostname (hostname|cut -d . -f 1)
-  end
   if not set -q __fish_prompt_char
     switch (id -u)
       case 0
@@ -38,7 +35,7 @@ function fish_prompt
   set -g __fish_git_prompt_show_informative_status true 
  
   # Line 1
-  echo -n $white$__fish_prompt_char' '$yellow$USER $limegreen(pwd)$blue
+  echo -n $white$__fish_prompt_char' '$limegreen(pwd)$blue
   __fish_git_prompt " (%s)"
   echo
 
