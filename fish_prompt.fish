@@ -32,7 +32,7 @@ function fish_prompt
   set -g __fish_git_prompt_showdirtystate true
   set -g __fish_git_prompt_showuntrackedfiles true
   set -g __fish_git_prompt_showstashstate false
-  set -g __fish_git_prompt_show_informative_status false 
+  # set -g __fish_git_prompt_show_informative_status
  
   # Line 1
   echo -n $white$__fish_prompt_char' '$limegreen(pwd)$blue
