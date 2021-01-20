@@ -25,6 +25,7 @@ function fish_prompt
  
   # Configure __fish_git_prompt
   set -g __fish_git_prompt_char_stateseparator ' '
+  set -g __fish_git_prompt_char_stashstate ''
   set -g __fish_git_prompt_color 5fdfff
   set -g __fish_git_prompt_color_flags df5f00
   set -g __fish_git_prompt_color_prefix white
