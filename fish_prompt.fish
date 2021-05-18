@@ -19,7 +19,7 @@ function fish_prompt
   set -l orange (set_color df5f00)
   set -l hotpink (set_color df005f)
   set -l blue (set_color blue)
-  set -l limegreen (set_color 87ff00)
+  set -l limegreen (set_color 78c800)
   set -l purple (set_color af5fff)
   set -l yellow (set_color FBDA75)
  
